@@ -48,12 +48,10 @@ Note: You will see a long list of jenkins images but you will use the one named 
 jenkins/jenkins:lts. The "lts" is the long term support version.
 
 $ docker search jenkins
-NAME                               DESCRIPTION                                     STARS     OFFICIAL
-jenkins/jenkins                    The leading open source automation server       4085      
-jenkins                            DEPRECATED; use "jenkins/jenkins:lts" instead   5696      [OK]
-jenkins/jnlp-agent-maven           A JNLP-based agent with Maven 3 built in        10        
-jenkins/ssh-agent                  Docker image for Jenkins agents connected ov…   60        
-jenkins/inbound-agent              This is an image for Jenkins agents using TC…   140 
+
+
+![docker-cmdline-jenkins-search](https://github.com/user-attachments/assets/890e2859-7742-4a54-9508-f0c39bb0dc76)
+
 
 In docker desktop select pull and the image will be downloaded to your information system. Once downloaded you should see it listed in the Docker Desktop application images innventory. 
 

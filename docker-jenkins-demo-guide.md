@@ -74,10 +74,10 @@ docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins
 
 Note: 
 This is telling docker to perform the following tasks (in no particluar order):
-a. Create a container running on the information system
-b. Map the computer that docker is running on to ports 8080 and 50000.
-c. Create a folder named <jenkins_home> and map it to the containers folder </var/jenkins_home>.
-d. Use the source image named jenkins:lts-jdk11.
+- Create a container running on the information system
+- Map the computer that docker is running on to ports 8080 and 50000.
+- Create a folder named <jenkins_home> and map it to the containers folder </var/jenkins_home>.
+- Use the source image named jenkins:lts-jdk11.
 
 // Docker run example
 

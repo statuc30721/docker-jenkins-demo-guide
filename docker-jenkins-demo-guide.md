@@ -57,24 +57,8 @@ In docker desktop select pull and the image will be downloaded to your informati
 
 Note: you can do the same from the command line:
 
-$ docker pull jenkins/jenkins
-Using default tag: latest
-latest: Pulling from jenkins/jenkins
-fa8785a0cbfc: Download complete 
-70ae892edd2c: Download complete 
-e228c44fff3b: Download complete 
-e474a4a4cbbf: Download complete 
-40375a76d092: Download complete 
-154b66b7ce12: Download complete 
-eeeada77dafa: Download complete 
-764eeac48f0c: Download complete 
-25617dd6d7e8: Download complete 
-03bb4613691f: Download complete 
-793748ac1b11: Download complete 
-8c3f2fecd07d: Download complete 
-Digest: sha256:119e9decb712ec14aace4343ac4203ef2ba4d6cb7dbcb5387c76b85b29dd15fd
-Status: Downloaded newer image for jenkins/jenkins:latest
-docker.io/jenkins/jenkins:latest
+
+![docker-pull-jenkins](https://github.com/user-attachments/assets/da463bba-7294-46e0-986c-4b949f69fa37)
 
 (3) Log into the Docker Hub via the command line. You should see a similar result below.
 You can use either GitBash (on windows) or the terminal (on MacOS or Linux).

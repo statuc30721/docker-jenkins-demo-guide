@@ -33,6 +33,7 @@ Note: This is being run on MacOS. You should see similar output on a Linux or Wi
 $ docker version
 
 
+![docker-version-cmdline-screenshot](https://github.com/user-attachments/assets/3eb59ce0-8d18-4e03-a2f2-225fbe19d154)
 
 
 (2) Search for the official Jenkins container image on Docker Hub using either Docker Desktop application

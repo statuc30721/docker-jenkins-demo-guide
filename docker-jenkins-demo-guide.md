@@ -13,6 +13,8 @@ Reference: https://www.docker.com/get-started/
 (1) Create an account on Docker Hub.
 https://hub.docker.com/
 
+![docker-hub-screenshot](https://github.com/user-attachments/assets/bfdb0500-fa69-4f93-ab3d-41b23130a2e0)
+
 Once you have created an account on Docker Hub. Download the docker desktop application for your operating system.
 
 Installing Docker desktop will include docker-compose as well. You will use Docker Hub to upload and download container
@@ -22,42 +24,21 @@ images you create over time as you work with docker and containers.
 After installing the docker desktop application, start the docker desktop application and login to your docker hub account
 using the docker application.
 
+![docker-desktop-application-screenshot](https://github.com/user-attachments/assets/d418c07a-a4cc-4464-bc1c-80700ce1b78b)
+
 
 - Verify docker command line works.
 Note: This is being run on MacOS. You should see similar output on a Linux or Windows based operating system.
 
 $ docker version
 
-Client:
- Version:           27.5.1
- API version:       1.47
- Go version:        go1.22.11
- Git commit:        9f9e405
- Built:             Wed Jan 22 13:37:19 2025
- OS/Arch:           darwin/arm64
- Context:           desktop-linux
 
-Server: Docker Desktop 4.38.0 (181591)
- Engine:
-  Version:          27.5.1
-  API version:      1.47 (minimum version 1.24)
-  Go version:       go1.22.11
-  Git commit:       4c9b3b0
-  Built:            Wed Jan 22 13:41:25 2025
-  OS/Arch:          linux/arm64
-  Experimental:     false
- containerd:
-  Version:          1.7.25
-  GitCommit:        bcc810d6b9066471b0b6fa75f557a15a1cbf31bb
- runc:
-  Version:          1.1.12
-  GitCommit:        v1.1.12-0-g51d5e946
- docker-init:
-  Version:          0.19.0
-  GitCommit:        de40ad0
+
 
 (2) Search for the official Jenkins container image on Docker Hub using either Docker Desktop application
 or docker command line.
+
+![docker-desktop-jenkins-search](https://github.com/user-attachments/assets/61d84d21-9404-4fbb-b778-07aa04a273d6)
 
 
 // Docker Command Line Example.
@@ -138,6 +119,7 @@ Running from: /usr/share/jenkins/jenkins.war
 webroot: /var/jenkins_home/war
 
 (5) Locate the password created during the Jenkins container's initial startup.
+
 
 Note: The password location will be in /var/jenkins_home/secrets/InitialAdminPassword
 

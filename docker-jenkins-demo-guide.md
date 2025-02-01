@@ -81,25 +81,7 @@ d. Use the source image named jenkins:lts-jdk11.
 
 // Docker run example
 
-$ docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts-jdk11
-Unable to find image 'jenkins/jenkins:lts-jdk11' locally
-lts-jdk11: Pulling from jenkins/jenkins
-8bbe33c1a45d: Download complete 
-f62c370bc989: Download complete 
-75d89130f4e0: Download complete 
-4760cf60c6e6: Download complete 
-6a4c33872faf: Download complete 
-5e0034fcdff5: Download complete 
-39252305a35d: Download complete 
-ec694b08d3fc: Download complete 
-6d11c181ebb3: Download complete 
-4a9739527a50: Download complete 
-a9af1892fb19: Download complete 
-1b4ed656dd0a: Download complete 
-Digest: sha256:6aa6c6bd7da914bf5333305c8102cb26965ea4b227e37f4269315725a2b0cd81
-Status: Downloaded newer image for jenkins/jenkins:lts-jdk11
-Running from: /usr/share/jenkins/jenkins.war
-webroot: /var/jenkins_home/war
+![docker-run-jenkins](https://github.com/user-attachments/assets/07dfde4f-1505-4e7d-bb4a-c19a07ca21d3)
 
 (5) Locate the password created during the Jenkins container's initial startup.
 

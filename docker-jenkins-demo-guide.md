@@ -113,7 +113,7 @@ the jenkins web portal.
 ![jenkins-set-url](https://github.com/user-attachments/assets/e1adb806-7c38-4dac-b93f-c3af8a7e868e)
 
 
-(10) If successful you should see the message "Jenkins is ready!" Select the button <start using jenkins>.
+(10) If successful you should see the message "Jenkins is ready!" Select the <start using jenkins> button.
 
 ![jenkins-is-ready](https://github.com/user-attachments/assets/8e4807e9-8bf5-40d3-9773-08402c6dbe5e)
 

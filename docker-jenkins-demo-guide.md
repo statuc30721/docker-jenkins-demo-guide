@@ -92,17 +92,36 @@ Note: The password location will be in /var/jenkins_home/secrets/InitialAdminPas
 Note: You will need the password you should have seen in the command line to login
 the jenkins web portal.
 
+![initial-unlock-jenkins-screenshot](https://github.com/user-attachments/assets/afb08314-e8f1-4bf6-b1fe-e8b688a4942a)
+
+
 (7) Select the recommended Jenkins plugins. This can take some time to finish.
+
+![jenkins-customize-screenshot](https://github.com/user-attachments/assets/d17bbc29-2022-4e3d-b713-b83cf0b29c38)
+
+
+![jenkins-initial-plugins](https://github.com/user-attachments/assets/31fd276f-bfb0-4bc7-ab28-720f70cae54e)
+
 
 (8) Create a new user account. Document the username and password you created during this step.
 
+![jenkins-create-first-admin-user](https://github.com/user-attachments/assets/a949b4f5-5d37-488f-91a3-e1cbea3998e8)
+
+
 (9) Set URL that you want jenkins to listen on. In this example that is http://localhost:8080.
 
-(10) If successful you should see the message "Jenkins is ready!"
+![jenkins-set-url](https://github.com/user-attachments/assets/e1adb806-7c38-4dac-b93f-c3af8a7e868e)
 
-(11) Select the button <start using jenkins>.
 
-(12) You should see a page stating "Wecome to Jenkins!".
+(10) If successful you should see the message "Jenkins is ready!" Select the button <start using jenkins>.
+
+![jenkins-is-ready](https://github.com/user-attachments/assets/8e4807e9-8bf5-40d3-9773-08402c6dbe5e)
+
+
+(11) You should see a page stating "Wecome to Jenkins!".
+
+
+![welcome-to-jenkins](https://github.com/user-attachments/assets/27101ff9-b504-43bd-8bbb-b5bdd9cd11cc)
 
 
 

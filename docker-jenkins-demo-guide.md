@@ -144,6 +144,7 @@ AWS Secrets Manager SecretSource
 Configuration as Code AWS SSM secrets
 CloudFormation
 AWS SAM
+
 - Select install
 
 After the plugins are installed return and search for terraform and selct the terraform plugin.

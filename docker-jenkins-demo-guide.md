@@ -124,6 +124,56 @@ the jenkins web portal.
 ![welcome-to-jenkins](https://github.com/user-attachments/assets/27101ff9-b504-43bd-8bbb-b5bdd9cd11cc)
 
 
+(12) Install additional plugins. 
+- From the Dashboard, Clouds, Install a plugin
+-- On the left-side of the webpage select availa  
+- In search window type AWS
+-- 
+
+Select:
+AWS Credentials 
+Pipleine AWS Steps
+Amazon EC2
+Amazon Elastic Container Service (ECS)/ Fargate
+AWS CodeDeploy
+AWS Lambda
+Amazon S2 Bucket Credentials
+AWS Codebuild
+AWS CodePipeline
+AWS Secrets Manager SecretSource
+Configuration as Code AWS SSM secrets
+CloudFormation
+AWS SAM
+- Select install
+
+After the plugins are installed return and search for terraform and selct the terraform plugin.
+Terraform
+
+Input search for google plugins
+Google Cloud Storage
+Google Kubernetes Engine
+Google cloud platform SDK::Auth
+Pipeline:GCP steps
+
+Input search for devsecops
+
+snyk
+
+Input search for sonar
+sonarqube scanner
+
+input search for aqua
+
+aqua security sxcanner
+aqua microscanner
+aqua security serverless scanner
+
+input search for github
+
+github integration
+github authentication
+pipeline github
+pipeline github notify step
 
 
 

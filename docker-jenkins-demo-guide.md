@@ -132,7 +132,7 @@ the jenkins web portal.
 
 Select:
 AWS Credentials 
-Pipleine AWS Steps
+Pipeline AWS Steps
 Amazon EC2
 Amazon Elastic Container Service (ECS)/ Fargate
 AWS CodeDeploy

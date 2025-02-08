@@ -160,16 +160,16 @@ Input search for devsecops
 
 snyk
 
-Input search for sonar
-sonarqube scanner
+- Input search for sonar
+  Select sonarqube scanner
 
-input search for aqua
+- Input search for aqua
 
 aqua security sxcanner
 aqua microscanner
 aqua security serverless scanner
 
-input search for github
+- Input search for github
 
 github integration
 github authentication
